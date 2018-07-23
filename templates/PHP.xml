@@ -1,0 +1,9 @@
+<templateSet group="PHP">
+  <template name="collmap" value="$test = collect($variable$)-&gt;map(function($namedVariable$){dd($namedVariable$)});&#10;" description="Creates a collection and maps" toReformat="false" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="namedVariable" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
